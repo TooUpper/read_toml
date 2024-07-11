@@ -1,0 +1,14 @@
+[package]
+name = "read_toml"
+version = "0.1.0"
+edition = "2021"
+authors = ["kay <kay@tooupper.com>"]
+
+[[bin]]
+name = "main"
+path = "bin/main.rs"
+
+[dependencies]
+num_cpus = "1.16.0"
+serde = "1.0.204"
+toml = "0.8.14"
